@@ -1,0 +1,64 @@
+.weatherWeek {
+  &-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -6px;
+    .weatherWeek-item {
+      cursor: pointer;
+      width: 25%;
+      box-sizing: border-box;
+      padding: 0 6px;
+      margin-bottom: 16px;
+      .bg-blue {
+        background-color: #0dcaf0 !important;
+        transition: 0.5s;
+      }
+      .weatherWeek-content {
+        padding: 8px;
+        height: 140px;
+        border-radius: 8px;
+        background-color: white;
+        .name {
+          font-size: 16px;
+          margin-bottom: 16px;
+          color: #b9b9b9;
+          font-weight: 400;
+        }
+        .content {
+          text-align: center;
+          p {
+            margin-bottom: 16px;
+            font-size: 16px;
+            color: #878282;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
+.dayInfo {
+  padding: 16px;
+  border-radius: 8px;
+  background-color: white;
+  p {
+    color: #878282;
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  &-inner {
+    display: flex;
+    .dayInfo-left {
+      width: 50%;
+      p {
+        font-size: 16px;
+      }
+    }
+    .dayInfo-right {
+      width: 50%;
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}

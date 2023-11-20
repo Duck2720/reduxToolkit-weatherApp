@@ -1,0 +1,18 @@
+.page-content {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  background-color: rgb(223 230 223 / 93%);
+}
+
+.left {
+  width: 25%;
+  padding: 20px;
+  background-color: white;
+}
+
+.right {
+  width: 75%;
+  padding: 20px;
+  background-color: #f6f6f8;
+}

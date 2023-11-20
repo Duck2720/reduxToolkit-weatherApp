@@ -1,0 +1,66 @@
+.weather-today {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 80%;
+  .info {
+    font-size: 22px;
+    width: 25%;
+    text-align: center;
+    padding: 20px 0;
+    height: 40%;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    .info-name {
+      margin-bottom: 20px;
+      opacity: 0.5;
+      margin-top: 20px;
+    }
+    .info-number {
+      margin-top: 10px;
+      opacity: 0.6;
+      font-weight: 600;
+      font-size: 25px;
+    }
+    .sunrise {
+      display: flex;
+      margin-bottom: 10px;
+      justify-content: center;
+      i {
+        margin-right: 10 px;
+      }
+    }
+    .sunset {
+      display: flex;
+      justify-content: center;
+      i {
+        margin-right: 10 px;
+      }
+    }
+  }
+}
+
+.sun-icon,
+.visibility-icon {
+  color: yellow;
+  font-size: 40px;
+}
+
+.humidity-icon,
+.pressure-icon {
+  color: aqua;
+  font-size: 40px;
+}
+
+.wind-icon {
+  color: blue;
+  font-size: 40px;
+}
+
+.sunrise-icon,
+.sunset-icon {
+  color: yellow;
+  font-size: 40px;
+  margin-right: 20px;
+}
